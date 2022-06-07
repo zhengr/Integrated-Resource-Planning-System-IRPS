@@ -4,7 +4,7 @@ FROM frappe/erpnext-worker:${FRAPPE_BRANCH}
 ARG GITHUB_OWNER=default_github_owner # you could give a default value as well
 ENV GITHUB_OWNER=$GITHUB_OWNER
 
-RUN install_app metabase_integration https://github.com/${GITHUB_OWNER}/ERPNext-Metabase-Integration master && \
-  install_app erpnext_telegram_integration https://github.com/${GITHUB_OWNER}/ERPNext-Telegram-Integration master && \
-  install_app frepple https://github.com/${GITHUB_OWNER}/ERPNext-Frepple-Integration master && \
-  install_app barcode_shrdc https://github.com/${GITHUB_OWNER}/ERPNext-Barcode-Integration master  
+RUN install_app metabase_integration https://ghproxy.com/https://github.com/${GITHUB_OWNER}/ERPNext-Metabase-Integration master && \
+  install_app erpnext_telegram_integration https://ghproxy.com/https://github.com/${GITHUB_OWNER}/ERPNext-Telegram-Integration master && \
+  install_app frepple https://ghproxy.com/https://github.com/${GITHUB_OWNER}/ERPNext-Frepple-Integration master && \
+  install_app barcode_shrdc https://ghproxy.com/https://github.com/${GITHUB_OWNER}/ERPNext-Barcode-Integration master  
