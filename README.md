@@ -86,7 +86,7 @@
 ### 5. Setup
 
 1. Clone this repo.
-    - `git clone https://github.com/msf4-0/Integrated-Resource-Planning-System-IRPS.git`
+    - `git clone https://ghproxy.com/https://github.com/zhengr/Integrated-Resource-Planning-System-IRPS.git`
 
 2. Navigate to the cloned folder.
     - `cd Integrated-Resource-Planning-System-IRPS`
