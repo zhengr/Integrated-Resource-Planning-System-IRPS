@@ -1,4 +1,4 @@
-LETSENCRYPT_EMAIL=email@example.com
+LETSENCRYPT_EMAIL=zhengr@msn.com
 ERPNEXT_VERSION=version-13
 FRAPPE_VERSION=version-13
 MARIADB_HOST=mariadb
